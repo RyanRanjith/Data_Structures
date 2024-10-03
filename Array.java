@@ -48,7 +48,7 @@ public class Array{
    }
 // Date -  09-24-24
    // Searching elements using index0f()
-   
+    
    public int indexOf(int item){
 
     for(int i = 0; i < count; i++)
