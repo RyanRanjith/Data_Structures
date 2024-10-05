@@ -28,16 +28,25 @@
 
 
 
-public class main{
-    public static void main(String[] args) {
+// public class main{
+//     public static void main(String[] args) {
      
-      Array numbers = new Array(3 );
-      numbers.insert(10);
-     numbers.insert(30);
-     numbers.insert(44);
-     numbers.insert(3);
-     System.out.println(numbers.indexOf(30));
-     numbers.print();
+//       Array numbers = new Array(3 );
+//       numbers.insert(10);
+//      numbers.insert(30);
+//      numbers.insert(44);
+//      numbers.insert(3);
+//      System.out.println(numbers.indexOf(30));
+//      numbers.print();
 
-    }
+//     }
+// }
+
+public class main{
+  public static void main(String[] args) {
+    var list = new LinkedList();
+    list.addLast(10);
+    list.addLast(20);
+    list.addLast(30);
+  }
 }
